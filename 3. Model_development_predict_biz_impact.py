@@ -28,7 +28,6 @@ gst = spark.sql("select pos_prod_family, so_net_extd_value_lc, so_net_unit_value
 # gst.display()
 
 # COMMAND ----------
-
 gst_data=gst.toPandas()
 gst_data
 
