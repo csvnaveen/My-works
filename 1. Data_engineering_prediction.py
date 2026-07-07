@@ -673,5 +673,4 @@ path = '/Volumes/prod_catalog/shared_volume/gscr_ds/escalation_detection_project
 data.to_csv(path+'clean_message_sub_data_predict_temp_'+str(today_date)+'.csv',index=False)
 
 # COMMAND ----------
-
 pd.Timestamp("today").strftime("%Y%m%d")
